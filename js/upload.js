@@ -22,7 +22,7 @@ jQuery(document).ready(function() {
 		return false;
 	});
  
-	tb_position();
+	//tb_position();
 
 });
 
