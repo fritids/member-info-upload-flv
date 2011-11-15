@@ -17,7 +17,7 @@ jQuery(document).ready(function() {
 		}
 
 
-			tb_show('', MI.WPURL + 'media-upload.php?type=image&member_info_type=image&file_types=flv&TB_iframe=true');
+			tb_show('', MI.WPURL + 'media-upload.php?type=image&member_info_type=image&file_types=flv&height=500&width=700&TB_iframe=true');
 
 		return false;
 	});
