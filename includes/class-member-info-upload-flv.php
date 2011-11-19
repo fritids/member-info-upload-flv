@@ -80,8 +80,8 @@ class member_info_upload_flv {
 					<th><label for="' .$field. '">' .$field. '</label</th>
 					<a name="custom_field_' . $sanitized_field . '"></a>
 					<td>
-						<input class="button" type="button" id="mi_upload_video_button" name="' . $sanitized_field . '" value="Upload a video"/>
-						<input type="text" id="upload_video" name="' . $sanitized_field . '" value="' . $user_info->$sanitized_field . '"  class="custom_field_' . $sanitized_field . '"/>
+						<input type="button" class="button mi_upload_video_button" name="' . $sanitized_field . '" value="Upload a video"/>
+						<input type="hidden" id="upload_video" name="' . $sanitized_field . '" value="' . $user_info->$sanitized_field . '"  class="custom_field_' . $sanitized_field . '"/>
 						<div id="mi_videos">';
 						
 						$documents = explode( '~', $user_info->$sanitized_field );
